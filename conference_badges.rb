@@ -5,14 +5,15 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
-# binding.pry
   attendees.collect do |attendee|
     badge_maker(attendee)
   end
 end
 
 def assign_rooms(attendees)
-  
+  attendees.collect do |attendee|
+    room = 0
+  "Hello, #{attendee}! You'll be assigned to room #{room += 1}!"
 end
 
 
