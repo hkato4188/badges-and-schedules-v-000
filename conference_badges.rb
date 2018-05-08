@@ -14,11 +14,11 @@ def assign_rooms(attendees)
   binding.pry
   attendees.collect do |attendee|
     room = 0
-  "Hello, #{attendee}! You'll be assigned to room #{room += 1}!"
+  "Hello, #{attendee}! You'll be assigned to room #{room}!"
+    room += 1
+  end
 end
 
-attendees = ["john", "steve"]
-assign_rooms(attendees)
 
 
 
