@@ -17,6 +17,8 @@ def assign_rooms(attendees)
   "Hello, #{attendee}! You'll be assigned to room #{room += 1}!"
 end
 
+attendees = ["john", "steve"]
+assign_rooms(attendees)
 
 
 
