@@ -13,8 +13,10 @@ end
 def assign_rooms(attendees)
   # binding.pry
   attendees.each_with_index do |attendee, room|
-    "Hello, #{attendee}! You'll be assigned to room #{room + 1}!"
+    list = Array.new
+    list << "Hello, #{attendee}! You'll be assigned to room #{room + 1}!"
   end
+  list
 end
 
 
