@@ -11,7 +11,7 @@ def batch_badge_creator(attendees)
 end
 
 def assign_rooms(attendees)
-  # binding.pry
+  binding.pry
   attendees.each_with_index do |attendee, room|
     list = Array.new
     list << "Hello, #{attendee}! You'll be assigned to room #{room + 1}!"
